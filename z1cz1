@@ -1,6 +1,4 @@
 {- Uruchom przykładowy program w Haskellu:
-
-
 addMe :: Integer -> Integer -> Integer
 addMe x y = + x y
 
