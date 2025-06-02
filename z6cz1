@@ -1,3 +1,8 @@
+{- Napisz funkcję, która pobiera trzy liczby i zwraca różnicę między największą i najmniejszą liczbą.
+>>> minmax 7 1 4
+6
+-}
+
 minmax :: (Ord a, Num a) => a -> a -> a -> a
 minmax x y z = maximum [x, y, z] - minimum [x, y, z]
 
