@@ -1,3 +1,5 @@
+--Zaimplementuj funkcję obliczającą silnię.
+
 factorial :: Integer -> Integer
 factorial n
   | n < 0     = error "Silnia nie istnieje dla liczb ujemnych, łbie"
