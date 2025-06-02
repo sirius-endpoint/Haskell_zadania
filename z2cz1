@@ -1,3 +1,10 @@
+{- Napisz następujące funkcje:
+
+    square, która dla podanej liczby zwróci jej kwadrat.
+    cube, która dla podanej liczby zwróci jej sześcian.
+    average, która przyjmuje dwie liczby i zwraca ich średnią.
+-}
+
 --kwadrat liczby
 square :: Num a => a -> a
 square x = x * x
