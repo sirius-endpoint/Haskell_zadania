@@ -1,3 +1,7 @@
+{- Napisz kod rozwiązujący równanie kwadratowe. W wersji I wykorzystaj konstrukcję if..else.
+W wersji II skorzystaj z dozorów/strażników (konstrukcja typu "case").
+-}
+
 -- na if-ach
 solveQuadratic :: (Ord a, Floating a, Show a) => a -> a -> a -> String
 solveQuadratic a b c =
