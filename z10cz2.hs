@@ -1,5 +1,6 @@
 -- Napisz funkcję sumOfDigits, która dla danej liczby całkowitej zwróci sumę jej cyfr.
 
+
 sumOfDigits :: Integer -> Integer
 sumOfDigits n
   | n < 0     = sumOfDigits (-n)  -- obsługa liczb ujemnych
